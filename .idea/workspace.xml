@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a289c29b-4411-4073-8d9b-68936a64cbcb" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RJzY3O8y6DQilpuK8yPUQnFNtX" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/../hmm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.StopPoint">
+    <configuration name="Read_by_line" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sql_INPUT.Read_by_line" />
+      <module name="Nian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sql_INPUT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StopPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Connection.StopPoint" />
+      <module name="Nian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Connect.User" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Nian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Connection" />
+      <option name="MAIN_CLASS_NAME" value="Connection.Connect" />
+      <option name="METHOD_NAME" value="User" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Connect_to_taxi.User" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Nian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="deal_with_taxi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="deal_with_taxi" />
+      <option name="MAIN_CLASS_NAME" value="deal_with_taxi.Connect_to_taxi" />
+      <option name="METHOD_NAME" value="User" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Connection.User" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Nian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sql_INPUT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sql_INPUT" />
+      <option name="MAIN_CLASS_NAME" value="sql_INPUT.Connection" />
+      <option name="METHOD_NAME" value="User" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StopPoint" />
+        <item itemvalue="JUnit.Connect.User" />
+        <item itemvalue="JUnit.Connect_to_taxi.User" />
+        <item itemvalue="JUnit.Connection.User" />
+        <item itemvalue="Application.Read_by_line" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a289c29b-4411-4073-8d9b-68936a64cbcb" name="Default Changelist" comment="" />
+      <created>1569400030085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569400030085</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sql_INPUT/Read_by_line.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
