@@ -1,6 +1,6 @@
 package sql_INPUT;
 
-//port org.junit.Test;
+import org.junit.Test;
 
 import java.io.File;
 import java.sql.DriverManager;
@@ -12,23 +12,21 @@ import java.util.List;
 
 public class Connection {
     // MySQL 8.0 以下版本 - JDBC 驱动名及数据库 URL
-    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/taxi_of_shanghai";
+//    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/taxi_of_shanghai?useSSL=false&serverTimezone=UTC";
 
     // 数据库的用户名与密码，需要根据自己的设置
     static final String USER = "root";
-    static final String PASS = "yannian002";
+    static final String PASS = "Yannian002.";
 
-//    @Test
-
+   @Test
     public void User() {
         List<Object> output = new LinkedList<>();
         java.sql.Connection conn = null;
         Statement stmt = null;
         try{
             // 注册 JDBC 驱动
-            Class.forName(JDBC_DRIVER);
-
+            Class.forName("com.mysql.cj.jdbc.Driver");
             // 打开链接
             System.out.println("连接数据库...");
             conn = DriverManager.getConnection(DB_URL,USER,PASS);
@@ -40,7 +38,7 @@ public class Connection {
 
 
             Read_by_line read_by_line=new Read_by_line();
-            File file = new File("C:\\Users\\Administrator\\Desktop\\研究进展\\数据集\\taxi\\Taxi_070220");
+            File file = new File("/Users/nicolas/Downloads/Taxi_070220");
             //listFiles是获取该目录下所有文件和目录的绝对路径
             File[] fs = file.listFiles();
             for (File f : fs){

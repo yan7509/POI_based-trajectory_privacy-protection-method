@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a289c29b-4411-4073-8d9b-68936a64cbcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Connection/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Connection/Connect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Connection/Tecnet_Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Connection/Tecnet_Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nian.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Nian.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Nian/Connection/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Nian/Connection/Connect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Nian/Connection/LocationUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Nian/Connection/LocationUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Nian/Connection/StopPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Nian/Connection/StopPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Nian/Connection/Submit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Nian/Connection/Submit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Nian/Connection/Tecnet_Api.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Nian/Connection/Tecnet_Api.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Nian/Connection/gps_UTC_unix_timestam_change_to_BeiJingTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Nian/Connection/gps_UTC_unix_timestam_change_to_BeiJingTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Nian/META-INF/Nian.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Nian/deal_with_taxi/Connect_to_taxi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Nian/deal_with_taxi/Connect_to_taxi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Nian/deal_with_taxi/Create_new_sql.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Nian/deal_with_taxi/Create_new_sql.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Nian/deal_with_taxi/S_AND_E_POINT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Nian/deal_with_taxi/S_AND_E_POINT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Nian/sql_INPUT/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Nian/sql_INPUT/Connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Nian/sql_INPUT/Read_by_line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Nian/sql_INPUT/Read_by_line.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sql_INPUT/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql_INPUT/Connection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sql_INPUT/Read_by_line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql_INPUT/Read_by_line.java" afterDir="false" />
     </list>
@@ -54,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StopPoint">
+  <component name="RunManager" selected="JUnit.Connection.User">
     <configuration name="Read_by_line" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sql_INPUT.Read_by_line" />
       <module name="Nian" />
@@ -131,10 +141,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Connection.User" />
         <item itemvalue="Application.StopPoint" />
         <item itemvalue="JUnit.Connect.User" />
         <item itemvalue="JUnit.Connect_to_taxi.User" />
-        <item itemvalue="JUnit.Connection.User" />
         <item itemvalue="Application.Read_by_line" />
       </list>
     </recent_temporary>
@@ -149,8 +159,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569400030085</updated>
-      <workItem from="1574142709030" duration="729000" />
+      <workItem from="1574142709030" duration="3565000" />
     </task>
+    <task id="LOCAL-00001" summary="change my system from windows to macos">
+      <created>1574148227276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574148227276</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +184,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change my system from windows to macos" />
+    <option name="LAST_COMMIT_MESSAGE" value="change my system from windows to macos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
