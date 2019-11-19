@@ -1,6 +1,6 @@
 package Connection;
 
-import org.junit.Test;
+//import org.junit.Test;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -19,7 +19,7 @@ public class Connect {
     static double [] gps_longitude = new double[108607];
     static int [] gps_UTC_unix_timestamp = new int[108607];
 
-    @Test
+//    @Test
 
     public  List<Object> User() {
         List<Object> output = new LinkedList<>();

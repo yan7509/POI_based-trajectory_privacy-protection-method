@@ -1,6 +1,6 @@
 package sql_INPUT;
 
-import org.junit.Test;
+//port org.junit.Test;
 
 import java.io.File;
 import java.sql.DriverManager;
@@ -19,7 +19,7 @@ public class Connection {
     static final String USER = "root";
     static final String PASS = "yannian002";
 
-    @Test
+//    @Test
 
     public void User() {
         List<Object> output = new LinkedList<>();
